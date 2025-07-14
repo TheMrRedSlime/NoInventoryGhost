@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "noinventoryghost",
+	"version": "${version}",
+	"name": "NoInventoryGhost",
+	"description": "Automatically re-updates your inventory in an attempt to prevent / minimize ghosting",
+	"authors": [
+		"TheMrRedSlime"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/noinventoryghost/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"noinventoryghost.NoInventoryGhost"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.16.5",
+		"java": ">=8",
+		"fabric": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
